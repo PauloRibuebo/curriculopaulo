@@ -1,0 +1,74 @@
+html{
+    scroll-behavior:smooth;
+}
+
+
+*{
+    box-sizing:border-box;
+}
+
+div{
+    float: left;
+}
+
+.geral{
+    width: 100%;
+}
+
+.lateral{
+    width:20%;
+    height:100%;
+    background-color:green;
+    color:black;
+    position: fixed;
+}
+.conteudo{
+    width:80%;
+    height:100%;
+    background-color:204,204,204;
+    color:black;
+    margin-left: 20%;
+    padding: 1%
+}
+.conteudo h1{
+    text-align: center;
+}
+.foto{
+    width:150px;
+    height:150px;
+    background-image: url('paulo.png');
+    background-size: 100% 100%;
+    margin:15px;
+    border-radius:50%;
+}
+ol li A:hover{
+    border-bottom: 2px solid black;
+}
+H2{
+    TeXT-ALIGN:CENTER;
+    background-color:blue;
+    color:white;
+}
+ol li{
+    list-style: none;
+}
+ol li a{
+    text-decoration: none;
+    color:white
+}
+
+@media screen and (max-width:850px){
+    .lateral{
+        width:100%;
+        height:30%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+
+    }
+    .conteudo{
+        width:100%;
+        height:100%;
+        margin-left: 0%;
+    }
+}
